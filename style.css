@@ -1,0 +1,68 @@
+
+h1{
+     
+     color :rgb(156, 13, 49);
+     font-size:xx-large;
+     margin: 30px;
+     padding: 19px;
+}
+
+.header{
+     border: solid;
+    color:rgb(16, 124, 124);
+    background-color :rgb(120, 112, 156);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.juegos{
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+body{
+     background-color: #808080;
+     font-size:medium;
+}
+p, h2{
+   color: rgb(19, 38, 100);
+}
+.redes{
+     display: flex;
+     justify-content: flex-end;
+}
+.menu {
+     border: solid;
+   margin: 30px;
+   padding: 20px;
+  
+}
+.menu a{
+   margin: 20px;
+}
+.juegos img{
+     border: solid;
+}
+a:link{
+     color: rgb(0, 100, 30);
+}
+a:visited{
+     color: rgb(117, 47, 6);
+}
+.juego{
+     position: relative;
+}
+.juego p{
+     position:absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     opacity: 0;
+     font-size: x-large;
+}
+.juego:hover p{
+     opacity: 1;
+}
+.juego:hover img{
+     opacity: 0.33;
+}
